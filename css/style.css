@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:  #eee;
+}
+header{
+    background-color: #6d8adbc7 ;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: beige;
+    padding: 15px;
+}
+main div{
+    width: 40%;
+    display: inline-block;
+    
+    padding: 10px;
+}
+#form {
+    background-color: #dae4ff;
+    margin: 60px 80px;
+    /* height: 400px; */
+    width: 400px;
+   
+}
+#date{
+    font-size: 33px;
+    text-align: center;
+    padding: 20px;
+}
+form {
+    margin: 0px 37px;
+    position: relative;
+}
+label {
+    font-size: 17px;
+    padding: 10px 0px;
+    display: block;
+    font-weight: 600;
+}
+input {
+    width: 100%;
+    height: 34px;
+    margin-bottom: 20px;
+    border: #d0d0d0 1px solid;
+}
+#submit {
+    background-color: #6d8adbc7;
+    /* position: absolute; */
+    /* right: 0px; */
+    padding: 14px 20px 28px;
+    text-align: center;
+    width: auto;
+    border: none;
+    float: right;
+}
+input#start {
+    height: 34px;
+}
+ol, ul {
+    list-style: decimal;
+    font-size: 17px;
+    font-weight: 600;
+}
+div#tasks {
+    margin: 25px 0px;
+    position: absolute;
+    top: 100px;
+}
+li {
+    display: list-item;
+    padding: 10px;
+    margin: 10px 0 50px 0px;
+}
+.removeP {
+    float: right;
+    color: red;
+}
+.date{
+    color: #6d8adbc7;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 100;
+}
