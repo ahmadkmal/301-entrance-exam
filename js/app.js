@@ -66,7 +66,7 @@ function displayWhatToDo(){
 function removeElement(){
   var ulEl = document.getElementById('taskol');
   ulEl.addEventListener('click',function(){
-    if (Number(event.target.id) >= 0){
+    if (event.target.className === 'removeP'){
       allPlane.removeEl(Number(event.target.id));
       displayWhatToDo();
     }

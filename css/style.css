@@ -78,6 +78,9 @@ li {
     float: right;
     color: red;
 }
+.removeP:hover{
+    cursor: pointer;
+}
 .date{
     color: #6d8adbc7;
     padding: 10px 0px;
